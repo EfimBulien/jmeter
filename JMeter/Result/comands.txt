@@ -1,0 +1,7 @@
+/opt/homebrew/bin/jmeter -n -t ~/JMeter/test_63_users.jmx -l ~/JMeter/Result-test_63_users.jtl -e -o ~/JMeter/Result-test_63_users/
+
+/opt/homebrew/bin/jmeter -n -t ~/JMeter/test_3232_users.jmx -l ~/JMeter/Result-test_3232_users.jtl -e -o ~/JMeter/Result-test_3232_users/
+
+/opt/homebrew/bin/jmeter -n -t ~/JMeter/test_40_users_10s.jmx -l ~/JMeter/Result-test_40_users_10s.jtl -e -o ~/JMeter/Result-test_40_users_10s/
+
+/opt/homebrew/bin/jmeter -n -t ~/JMeter/test_100_users_element.jmx -l ~/JMeter/Result-test_100_users_element.jtl -e -o ~/JMeter/Result-test_100_users_element/

@@ -1,0 +1,361 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732198777862,339,HTTP Request,200,OK,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=52d1ebdf-d4fc-4f62-af66-e716b5d8eba3&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,232,0,206
+1732198777862,235,HTTP Request-0,302,Found,Thread Group 1-1,text,true,,820,109,2,2,https://dzen.ru,232,0,206
+1732198778097,104,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=52d1ebdf-d4fc-4f62-af66-e716b5d8eba3&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,104,0,52
+1732198778071,223,HTTP Request,200,OK,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4110,337,1,1,https://sso.passport.yandex.ru/push?uuid=f4e51991-1c22-41b6-a8e7-9ca6e29c97a9&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,84,0,51
+1732198778071,84,HTTP Request-0,302,Found,Thread Group 1-2,text,true,,819,109,1,1,https://dzen.ru,84,0,51
+1732198778155,139,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=f4e51991-1c22-41b6-a8e7-9ca6e29c97a9&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,139,0,41
+1732198778321,319,HTTP Request,200,OK,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=3703567d-23bf-498b-b0a1-bd554d88abd9&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,155,0,117
+1732198778321,155,HTTP Request-0,302,Found,Thread Group 1-3,text,true,,820,109,2,2,https://dzen.ru,155,0,117
+1732198778478,162,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=3703567d-23bf-498b-b0a1-bd554d88abd9&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,162,0,68
+1732198778573,211,HTTP Request,200,OK,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=b925c106-6a25-48d9-9406-8a8495bcffed&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,99,0,61
+1732198778573,99,HTTP Request-0,302,Found,Thread Group 1-4,text,true,,824,109,1,1,https://dzen.ru,99,0,61
+1732198778673,111,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=b925c106-6a25-48d9-9406-8a8495bcffed&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,111,0,51
+1732198778823,200,HTTP Request,200,OK,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=c7e94ce5-c5e2-41dd-ba98-e9833cc78c87&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,98,0,63
+1732198778823,98,HTTP Request-0,302,Found,Thread Group 1-5,text,true,,824,109,1,1,https://dzen.ru,98,0,63
+1732198778922,101,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=c7e94ce5-c5e2-41dd-ba98-e9833cc78c87&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,101,0,49
+1732198779072,202,HTTP Request,200,OK,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=c1fcb044-4f78-4357-a1f4-1887b7d852cd&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,76,0,54
+1732198779072,76,HTTP Request-0,302,Found,Thread Group 1-6,text,true,,824,109,1,1,https://dzen.ru,76,0,54
+1732198779150,124,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=c1fcb044-4f78-4357-a1f4-1887b7d852cd&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,124,0,46
+1732198779323,185,HTTP Request,200,OK,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4115,337,1,1,https://sso.passport.yandex.ru/push?uuid=4f0f2a36-a041-4de0-9ebf-125f56a3fe97&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,78,0,54
+1732198779323,78,HTTP Request-0,302,Found,Thread Group 1-7,text,true,,824,109,1,1,https://dzen.ru,78,0,54
+1732198779403,105,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=4f0f2a36-a041-4de0-9ebf-125f56a3fe97&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,105,0,53
+1732198779568,161,HTTP Request,200,OK,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4111,337,1,1,https://sso.passport.yandex.ru/push?uuid=cfdb9c65-aa1f-4da2-8b53-13d2cf92d260&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,70,0,46
+1732198779568,70,HTTP Request-0,302,Found,Thread Group 1-8,text,true,,820,109,1,1,https://dzen.ru,70,0,46
+1732198779639,90,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=cfdb9c65-aa1f-4da2-8b53-13d2cf92d260&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,90,0,43
+1732198779823,161,HTTP Request,200,OK,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=c8b4918a-3213-4b9c-b781-de10095c70c8&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,79,0,57
+1732198779823,79,HTTP Request-0,302,Found,Thread Group 1-9,text,true,,820,109,1,1,https://dzen.ru,79,0,57
+1732198779902,82,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=c8b4918a-3213-4b9c-b781-de10095c70c8&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,82,0,40
+1732198780073,178,HTTP Request,200,OK,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=683c6a29-377e-42e5-ba24-3d411f4751a6&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,96,0,63
+1732198780073,96,HTTP Request-0,302,Found,Thread Group 1-10,text,true,,820,109,1,1,https://dzen.ru,96,0,63
+1732198780170,81,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=683c6a29-377e-42e5-ba24-3d411f4751a6&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,81,0,43
+1732198780324,210,HTTP Request,200,OK,Thread Group 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4111,337,1,1,https://sso.passport.yandex.ru/push?uuid=467dab35-bcb2-4b01-8dff-e827561dd086&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,89,0,58
+1732198780324,89,HTTP Request-0,302,Found,Thread Group 1-11,text,true,,820,109,1,1,https://dzen.ru,89,0,58
+1732198780415,119,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=467dab35-bcb2-4b01-8dff-e827561dd086&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,119,0,63
+1732198780569,227,HTTP Request,200,OK,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4111,337,1,1,https://sso.passport.yandex.ru/push?uuid=5de890a9-d21b-45cd-88f3-373dea1d1e44&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,101,0,62
+1732198780569,101,HTTP Request-0,302,Found,Thread Group 1-12,text,true,,820,109,1,1,https://dzen.ru,101,0,62
+1732198780672,124,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=5de890a9-d21b-45cd-88f3-373dea1d1e44&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,124,0,66
+1732198780820,250,HTTP Request,200,OK,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=56929307-73b8-4138-b1f9-51fb8e222f06&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,90,0,58
+1732198780820,90,HTTP Request-0,302,Found,Thread Group 1-13,text,true,,824,109,1,1,https://dzen.ru,90,0,58
+1732198780911,159,HTTP Request-1,200,OK,Thread Group 1-13,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=56929307-73b8-4138-b1f9-51fb8e222f06&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,159,0,47
+1732198781072,274,HTTP Request,200,OK,Thread Group 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4106,337,2,2,https://sso.passport.yandex.ru/push?uuid=97e73c2b-380e-40ff-9156-37902b1c48ee&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,96,0,64
+1732198781072,96,HTTP Request-0,302,Found,Thread Group 1-14,text,true,,820,109,2,2,https://dzen.ru,96,0,64
+1732198781169,177,HTTP Request-1,200,OK,Thread Group 1-14,text,true,,3286,228,2,2,https://sso.passport.yandex.ru/push?uuid=97e73c2b-380e-40ff-9156-37902b1c48ee&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,177,0,74
+1732198781322,193,HTTP Request,200,OK,Thread Group 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=158bd63e-cdd4-42d3-9b1f-d0a24f650925&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,89,0,66
+1732198781322,89,HTTP Request-0,302,Found,Thread Group 1-15,text,true,,824,109,1,1,https://dzen.ru,89,0,66
+1732198781412,103,HTTP Request-1,200,OK,Thread Group 1-15,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=158bd63e-cdd4-42d3-9b1f-d0a24f650925&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,103,0,50
+1732198781574,169,HTTP Request,200,OK,Thread Group 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4116,337,1,1,https://sso.passport.yandex.ru/push?uuid=63b39976-bc29-4bc3-b956-34b607fa8126&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,69,0,47
+1732198781574,69,HTTP Request-0,302,Found,Thread Group 1-16,text,true,,824,109,1,1,https://dzen.ru,69,0,47
+1732198781644,99,HTTP Request-1,200,OK,Thread Group 1-16,text,true,,3292,228,1,1,https://sso.passport.yandex.ru/push?uuid=63b39976-bc29-4bc3-b956-34b607fa8126&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,99,0,52
+1732198781820,172,HTTP Request,200,OK,Thread Group 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=0338f749-f57a-4a18-9a1c-00f64cc94ef8&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,70,0,46
+1732198781820,70,HTTP Request-0,302,Found,Thread Group 1-17,text,true,,824,109,1,1,https://dzen.ru,70,0,46
+1732198781892,100,HTTP Request-1,200,OK,Thread Group 1-17,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=0338f749-f57a-4a18-9a1c-00f64cc94ef8&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,100,0,48
+1732198782072,227,HTTP Request,200,OK,Thread Group 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=a112fc4f-d26b-4dc0-969b-ab50da098456&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,69,0,48
+1732198782072,69,HTTP Request-0,302,Found,Thread Group 1-18,text,true,,820,109,1,1,https://dzen.ru,69,0,48
+1732198782142,157,HTTP Request-1,200,OK,Thread Group 1-18,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=a112fc4f-d26b-4dc0-969b-ab50da098456&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,157,0,89
+1732198782321,220,HTTP Request,200,OK,Thread Group 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=f42b8338-0895-4f35-99fb-9f57617d4f6d&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,98,0,63
+1732198782321,98,HTTP Request-0,302,Found,Thread Group 1-19,text,true,,820,109,1,1,https://dzen.ru,98,0,63
+1732198782420,121,HTTP Request-1,200,OK,Thread Group 1-19,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=f42b8338-0895-4f35-99fb-9f57617d4f6d&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,121,0,74
+1732198782573,162,HTTP Request,200,OK,Thread Group 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=fcc12a5c-0aad-4bed-9fab-2727f1671e07&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,66,0,44
+1732198782573,66,HTTP Request-0,302,Found,Thread Group 1-20,text,true,,824,109,1,1,https://dzen.ru,66,0,44
+1732198782641,94,HTTP Request-1,200,OK,Thread Group 1-20,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=fcc12a5c-0aad-4bed-9fab-2727f1671e07&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,94,0,54
+1732198782822,240,HTTP Request,200,OK,Thread Group 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=37c211d2-d6c1-4697-845a-77df30b9d99e&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,78,0,54
+1732198782822,78,HTTP Request-0,302,Found,Thread Group 1-21,text,true,,824,109,1,1,https://dzen.ru,78,0,54
+1732198782901,161,HTTP Request-1,200,OK,Thread Group 1-21,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=37c211d2-d6c1-4697-845a-77df30b9d99e&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,161,0,53
+1732198783066,266,HTTP Request,200,OK,Thread Group 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=8adbcd89-46f9-4aa0-8e3e-bf935041f4ec&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,78,0,51
+1732198783066,78,HTTP Request-0,302,Found,Thread Group 1-22,text,true,,820,109,2,2,https://dzen.ru,78,0,51
+1732198783145,187,HTTP Request-1,200,OK,Thread Group 1-22,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=8adbcd89-46f9-4aa0-8e3e-bf935041f4ec&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,186,0,57
+1732198783572,188,HTTP Request,200,OK,Thread Group 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=ab2c3b97-fefd-498a-8869-65cd7e01fb65&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,67,0,45
+1732198783572,67,HTTP Request-0,302,Found,Thread Group 1-24,text,true,,820,109,2,2,https://dzen.ru,67,0,45
+1732198783641,119,HTTP Request-1,200,OK,Thread Group 1-24,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=ab2c3b97-fefd-498a-8869-65cd7e01fb65&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,119,0,75
+1732198783320,448,HTTP Request,200,OK,Thread Group 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4116,337,1,1,https://sso.passport.yandex.ru/push?uuid=996fa897-fd4a-4b23-a485-d96993b5bc51&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,82,0,59
+1732198783320,82,HTTP Request-0,302,Found,Thread Group 1-23,text,true,,824,109,1,1,https://dzen.ru,82,0,59
+1732198783403,365,HTTP Request-1,200,OK,Thread Group 1-23,text,true,,3292,228,1,1,https://sso.passport.yandex.ru/push?uuid=996fa897-fd4a-4b23-a485-d96993b5bc51&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,365,0,40
+1732198783822,206,HTTP Request,200,OK,Thread Group 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=4402fd44-9da1-4b36-ad5a-70fa42c8a970&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,99,0,61
+1732198783822,99,HTTP Request-0,302,Found,Thread Group 1-25,text,true,,820,109,1,1,https://dzen.ru,99,0,61
+1732198783923,105,HTTP Request-1,200,OK,Thread Group 1-25,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=4402fd44-9da1-4b36-ad5a-70fa42c8a970&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,105,0,60
+1732198784072,233,HTTP Request,200,OK,Thread Group 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=952876f6-e1e7-444f-b039-d86734998960&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,68,0,45
+1732198784072,68,HTTP Request-0,302,Found,Thread Group 1-26,text,true,,820,109,1,1,https://dzen.ru,68,0,45
+1732198784140,165,HTTP Request-1,200,OK,Thread Group 1-26,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=952876f6-e1e7-444f-b039-d86734998960&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,165,0,41
+1732198784321,191,HTTP Request,200,OK,Thread Group 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=130c9b45-5c74-4d9e-8bfc-a0869330bc4f&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,91,0,58
+1732198784321,91,HTTP Request-0,302,Found,Thread Group 1-27,text,true,,824,109,1,1,https://dzen.ru,91,0,58
+1732198784413,99,HTTP Request-1,200,OK,Thread Group 1-27,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=130c9b45-5c74-4d9e-8bfc-a0869330bc4f&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,99,0,43
+1732198784573,177,HTTP Request,200,OK,Thread Group 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=d2b655a2-6508-481b-b566-872168d42034&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,90,0,58
+1732198784573,90,HTTP Request-0,302,Found,Thread Group 1-28,text,true,,820,109,1,1,https://dzen.ru,90,0,58
+1732198784664,86,HTTP Request-1,200,OK,Thread Group 1-28,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=d2b655a2-6508-481b-b566-872168d42034&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,86,0,42
+1732198784820,189,HTTP Request,200,OK,Thread Group 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=de2b18c5-e592-4694-abdb-b30f61bc2022&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,95,0,63
+1732198784820,95,HTTP Request-0,302,Found,Thread Group 1-29,text,true,,824,109,1,1,https://dzen.ru,95,0,63
+1732198784916,93,HTTP Request-1,200,OK,Thread Group 1-29,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=de2b18c5-e592-4694-abdb-b30f61bc2022&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,93,0,37
+1732198785065,220,HTTP Request,200,OK,Thread Group 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=6f5f84ae-ec9a-46fc-9c31-8abef99f0c40&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,66,0,43
+1732198785065,66,HTTP Request-0,302,Found,Thread Group 1-30,text,true,,824,109,1,1,https://dzen.ru,66,0,43
+1732198785132,153,HTTP Request-1,200,OK,Thread Group 1-30,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=6f5f84ae-ec9a-46fc-9c31-8abef99f0c40&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,153,0,47
+1732198785318,218,HTTP Request,200,OK,Thread Group 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4118,337,1,1,https://sso.passport.yandex.ru/push?uuid=7755ec15-ed6b-4c1c-8771-550aecb55e20&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,100,0,73
+1732198785318,100,HTTP Request-0,302,Found,Thread Group 1-31,text,true,,824,109,1,1,https://dzen.ru,100,0,73
+1732198785419,117,HTTP Request-1,200,OK,Thread Group 1-31,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=7755ec15-ed6b-4c1c-8771-550aecb55e20&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,117,0,65
+1732198785572,191,HTTP Request,200,OK,Thread Group 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4115,337,1,1,https://sso.passport.yandex.ru/push?uuid=e5e5906a-5d7a-4646-b614-bff5455b771d&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,86,0,53
+1732198785572,86,HTTP Request-0,302,Found,Thread Group 1-32,text,true,,824,109,1,1,https://dzen.ru,86,0,53
+1732198785660,103,HTTP Request-1,200,OK,Thread Group 1-32,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=e5e5906a-5d7a-4646-b614-bff5455b771d&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,103,0,51
+1732198785823,182,HTTP Request,200,OK,Thread Group 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4112,337,1,1,https://sso.passport.yandex.ru/push?uuid=bf82856b-6f6b-4114-85e6-c11485ed40a5&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,89,0,59
+1732198785823,89,HTTP Request-0,302,Found,Thread Group 1-33,text,true,,820,109,1,1,https://dzen.ru,89,0,59
+1732198785914,91,HTTP Request-1,200,OK,Thread Group 1-33,text,true,,3292,228,1,1,https://sso.passport.yandex.ru/push?uuid=bf82856b-6f6b-4114-85e6-c11485ed40a5&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,91,0,47
+1732198786072,230,HTTP Request,200,OK,Thread Group 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4111,337,1,1,https://sso.passport.yandex.ru/push?uuid=dbcbdf8a-24d0-4436-a723-bcec501da079&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,108,0,70
+1732198786072,109,HTTP Request-0,302,Found,Thread Group 1-34,text,true,,819,109,1,1,https://dzen.ru,108,0,70
+1732198786181,121,HTTP Request-1,200,OK,Thread Group 1-34,text,true,,3292,228,1,1,https://sso.passport.yandex.ru/push?uuid=dbcbdf8a-24d0-4436-a723-bcec501da079&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,121,0,47
+1732198786322,368,HTTP Request,200,OK,Thread Group 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=be12cf57-0d0a-494f-87bc-ff9b013cd4e2&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,154,0,118
+1732198786322,154,HTTP Request-0,302,Found,Thread Group 1-35,text,true,,820,109,2,2,https://dzen.ru,154,0,118
+1732198786477,213,HTTP Request-1,200,OK,Thread Group 1-35,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=be12cf57-0d0a-494f-87bc-ff9b013cd4e2&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,213,0,128
+1732198786570,203,HTTP Request,200,OK,Thread Group 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4113,337,1,1,https://sso.passport.yandex.ru/push?uuid=1d9714bc-06d8-485e-86f1-bf3f1a865760&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,92,0,59
+1732198786570,92,HTTP Request-0,302,Found,Thread Group 1-36,text,true,,822,109,1,1,https://dzen.ru,92,0,59
+1732198786663,110,HTTP Request-1,200,OK,Thread Group 1-36,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=1d9714bc-06d8-485e-86f1-bf3f1a865760&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,110,0,53
+1732198786818,238,HTTP Request,200,OK,Thread Group 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4112,337,1,1,https://sso.passport.yandex.ru/push?uuid=c39970c0-857a-48ad-9780-9c3006e9191b&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,95,0,60
+1732198786818,95,HTTP Request-0,302,Found,Thread Group 1-37,text,true,,820,109,1,1,https://dzen.ru,95,0,60
+1732198786914,142,HTTP Request-1,200,OK,Thread Group 1-37,text,true,,3292,228,1,1,https://sso.passport.yandex.ru/push?uuid=c39970c0-857a-48ad-9780-9c3006e9191b&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,142,0,66
+1732198787070,196,HTTP Request,200,OK,Thread Group 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=db518e71-2d57-45af-be9e-3c3d63a5c320&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,87,0,53
+1732198787070,87,HTTP Request-0,302,Found,Thread Group 1-38,text,true,,823,109,1,1,https://dzen.ru,87,0,53
+1732198787157,109,HTTP Request-1,200,OK,Thread Group 1-38,text,true,,3291,228,1,1,https://sso.passport.yandex.ru/push?uuid=db518e71-2d57-45af-be9e-3c3d63a5c320&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,109,0,46
+1732198787322,341,HTTP Request,200,OK,Thread Group 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,2,2,https://sso.passport.yandex.ru/push?uuid=fa1d1e8c-3c54-4859-a9dc-5f41ba2ead7a&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,122,0,87
+1732198787322,122,HTTP Request-0,302,Found,Thread Group 1-39,text,true,,820,109,2,2,https://dzen.ru,122,0,87
+1732198787445,218,HTTP Request-1,200,OK,Thread Group 1-39,text,true,,3294,228,2,2,https://sso.passport.yandex.ru/push?uuid=fa1d1e8c-3c54-4859-a9dc-5f41ba2ead7a&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,218,0,44
+1732198787569,222,HTTP Request,200,OK,Thread Group 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",4114,337,1,1,https://sso.passport.yandex.ru/push?uuid=01992199-db7d-4417-87e3-c8a54683f0ef&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,98,0,64
+1732198787569,98,HTTP Request-0,302,Found,Thread Group 1-40,text,true,,820,109,1,1,https://dzen.ru,98,0,64
+1732198787668,123,HTTP Request-1,200,OK,Thread Group 1-40,text,true,,3294,228,1,1,https://sso.passport.yandex.ru/push?uuid=01992199-db7d-4417-87e3-c8a54683f0ef&retpath=https%3A%2F%2Fdzen.ru%2F%3Fis_autologin_ya%3Dtrue,123,0,46
